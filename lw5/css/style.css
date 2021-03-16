@@ -1,0 +1,176 @@
+.container
+{
+    width: 960px;
+    margin: 100px auto;
+    font-size: 0px;
+}
+.col-1
+{
+    vertical-align: top;
+    width: 330px;
+    display:inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.title1
+{
+    margin-top: -10px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.title1_1
+{
+    margin-top: -11px;
+    margin-left: -35px;
+}
+.title1_2
+{
+    list-style: none;
+    background: url(../images/point.png) no-repeat 0 15px;
+    padding-left: 17px;
+    width: 330px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+}
+.title2
+{
+    margin-top: 41px;
+    margin-left: 0px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.title2_1
+{
+  margin-top: -12px;
+  margin-left: -40px;
+}
+.title2_2
+{
+    width: 330px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+    list-style-position: inside;
+}
+.col-2
+{
+    vertical-align: top;
+    width: 570px;
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.lists
+{
+    height: 770px;
+    margin-top: 50px;
+}
+.citate
+{
+    margin-top: 50px;
+    height: 300px;
+
+}
+.information
+{
+    margin-top: 50px;
+    height: 770px;
+
+}
+.citate1
+{
+    margin-top: -24px;
+    margin-left: 60px;
+    width: 500px;
+    font-size: 28px;
+    line-height: 42px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Georgia";
+}
+.author
+{
+    margin-top: -25px;
+    margin-left: 63px;
+    font-size: 16px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.writer
+{
+    margin-top: -5px;
+    margin-left: 4px;
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+.stick
+{
+    margin-top: -13px;
+}
+.text1
+{
+    margin-top: 39px;
+    width: 561px;
+    height: 198px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
+.hobby
+{
+    margin-left: -2px;
+    margin-top: 36px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.text2
+{
+    margin-top: -15px;
+    width: 562px;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
+.writeme
+{
+    margin-top: -80px;
+    margin-left: 0px;
+    color: #15a98b;
+}
+.writeme:hover
+{
+    color: #098d72;
+}
+.text3
+{
+    color: #15a98b;
+    width: 562px;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    font-family: "Georgia";
+}
+.text3:hover
+{
+    color: #098d72;
+}
