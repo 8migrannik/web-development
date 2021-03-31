@@ -4,17 +4,29 @@
   <meta charset="utf-8">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="background">
+  <div class="menu">
+    <div class="menu__navbar">
+      <div class="navbar__element">
+        <a class="navbar__link navbar__image-littleman" href="">Обо мне</a>
+      </div>
+      <div class="navbar__element">
+        <a class="navbar__link navbar__image-heart" href="">Мое хобби</a>
+      </div>
+      <div class="navbar__element">
+        <a class="navbar__link navbar__image-camera" href="">Любимые фильмы</a>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="main">
       <div class="phrase">
         <div class="quotes"></div>
-        <!-- img class="quotes" src="images/quotes.png" alt="Опостровы">-->
         <p class="phrase__citate phrase__citate-text">
-          Мы берем на себя много, потому<br/>
-          что мало чего боимся
+          Мы берем на себя много, потому что<br/>
+          мало чего боимся
         </p>
         <p class="phrase__author phrase__author-text">
           &mdash; Том Демарко. Deadline
@@ -74,6 +86,91 @@
         </ol>
       </div>
     </div>
+  </div>
+  <div class="movies">
+    <div class="movies__storage">
+      <h2 class="storage__cinema">Любимые фильмы</h2>
+      <div class="storage__pages">
+
+        <div class="pages__card">
+          <img src="images/shawshank.png">
+          <h4 class="card__title">Побег из Шоушенка</h4>
+          <p class="card__text">
+            Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решетки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, вооруженный живым умом и доброй душой, отказывается мириться с приговором судьбы и начинает разрабатывать невероятно дерзкий план своего освобождения.
+          </p>
+         </div>
+
+          <div class="pages__card">
+            <img src="images/anesthesia.png">
+            <h4 class="card__title">Наркоз</h4>
+            <p class="card__text">
+              Клай Бересфорд вынужден лечь под нож. Однако в процессе операции на сердце он неожиданно приходит в себя. Находясь в парализованном состоянии, будучи не в силах пошевелить ни рукой, ни ногой, он, тем не менее, чувствует каждое касание скальпеля к своей плоти…
+            </p>
+          </div>
+
+          <div class="pages__card">
+            <img src="images/astral.png">
+            <h4 class="card__title">Астрал</h4>
+            <p class="card__text">
+              Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать вещи, как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат странные звуки… Но в настоящий ужас приходят родители, когда их десятилетний сын Далтон впадает в кому. Все усилия врачей в больнице помочь мальчику безуспешны.
+            </p>
+          </div>
+
+          <div class="pages__card">
+            <img src="images/gravity.png">
+            <h4 class="card__title">Гравитация</h4>
+            <p class="card__text">
+              Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется в свою первую космическую миссию под командованием ветерана астронавтики Мэтта Ковальски, для которого этот полет — последний перед отставкой. Но во время, казалось бы, рутинной работы за бортом случается катастрофа.<br/>
+              Шаттл уничтожен, а Стоун и Ковальски остаются совершенно одни; они находятся в связке друг с другом, и все, что они могут, — это двигаться по орбите в абсолютно черном пространстве без всякой связи с Землей и какой-либо надежды на спасение.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="storage__button">
+        <button class="button">Все фильмы</button>
+      </div>
+    </div>
+  </div>
+  <div class="form">
+    <div class="form__title">
+      <hr class="title__line">
+      <h2 class="title__text">НАПИШИ МНЕ</h2>
+      <hr class="title__line">
+    </div>
+    <form class="form__content">
+
+      <label class="content__text content__text_red" for="">Ваше имя</label>
+      <input class="content__printing" type="text">
+
+      <label class="content__text content__text_red" for="">Ваш email</label>
+      <input class="content__printing" type="text" >
+
+      <label class="content__text" for="">Откуда вы?</label>
+      <select class="content__country country__item" name="" id="">
+        <option class="country__item">Россия</option>
+        <option  class="country__item">Москва</option>
+      </select>
+
+      <label class="content__text" for="">Ваш пол</label>
+      <div class="content__radio">
+        <input class="radio__item" type="radio" name="gender" id="gender-man">
+        <label class="radio" for="gender-man">Мужской</label>
+        <input class="radio__item" type="radio" name="gender" id="gender-woman">
+        <label class="radio" for="gender-woman"> Женский</label>
+      </div>
+
+       <label class="content__text content__text_red" for="">Ваше сообщение</label>
+       <textarea class="content__write"></textarea>
+
+       <button class="content__button">Отправить</button>
+
+    </form>
+  </div>
+  <div class="footer">
+    <p class="postscripte__text">
+       © 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
+    </p>
   </div>
 </body>
 </html>

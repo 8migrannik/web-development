@@ -1,3 +1,72 @@
+.background
+{
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-position: -8px 50px;
+
+}
+
+.menu
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__navbar
+{
+    width: 960px;
+    display: flex;
+}
+
+.navbar__element:hover
+{
+    background-color: #15a98b;
+}
+
+.navbar__link:hover
+{
+    filter: brightness(0) invert(0.9);
+}
+
+.navbar__link
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 2px 22px 0 45px;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Georgia";
+}
+
+.navbar__image-littleman
+{
+    background-image: url('../images/littleman.png');
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+}
+
+.navbar__image-heart
+{
+    background-image: url('../images/heart.png') ;
+    background-repeat: no-repeat;
+    background-position: 20px 18px;
+}
+
+.navbar__image-camera
+{
+    background-image: url('../images/camera.png') ;
+    background-repeat: no-repeat;
+    background-position: 19px 17px;
+}
+
 .container
 {
     width: 1040px;
@@ -11,50 +80,41 @@
     font-size: 20px;
     float: right;
     margin-right: 40px;
+    margin-top: 16px;
 }
 
 .phrase
 {
-    margin: 1px 0 150px 0;
-    /* height: 300px; */
+   margin: 118px 0 85px 0
 
 }
 
 .quotes
 {
-    /*background: url('../images/quotes.png') no-repeat 0 50px;*/
-    /* width: 130px;s */
-    /* height: 90px; */
     margin-top: 0px;
 }
 
 .phrase__citate
 {
-    /* vertical-align: top;*/
-    background: url('../images/quotes.png') no-repeat 0 0px;
-    padding-top: 69px;
-    margin-top: 50px;
-    margin-bottom: 0;
-    padding-left: 60px;
-    width: 500px;
+    margin: 28px 0 0 3px;
 }
 
 .phrase__citate-text
 {
-    color: #848484;
+    color: #ffffff;
     font: italic 28px/1.5 Georgia ;
 }
 
 .phrase__author
 {
     margin-top: 3px;
-    margin-left: 63px;
+    margin-left: 5px;
 
 }
 
 .phrase__author-text
 {
-    color: #333333;
+    color: #ffffff;
     font: 600 16px/2.6 'Open Sans', sans-serif;
 }
 
@@ -140,6 +200,7 @@
     font-size: 20px;
     width: 300px;
     float: left;
+    margin-top: 110px;
     margin-left: 40px;
 }
 
@@ -198,7 +259,7 @@
 
 .number-list
 {
-    margin-left: -40px;
+    margin: 14px 0 20px -40px
 }
 
 .item-ol
@@ -206,4 +267,265 @@
     list-style-position: inside;
 }
 
+.movies
+{
+    margin-top: 1160px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.movies__storage
+{
+    margin-left: 270px;
+    width: 1200px;
+}
+
+.storage__cinema
+{
+    color: #333333;
+    font: 400 36px/1.1 "Open Sans", sans-serif;
+    margin: 25.88px 0 34.88px 0;
+}
+
+.storage__pages
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.pages__card
+{
+    width: 285px;
+}
+
+.card__title
+{
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin: 19.26px 2px 17.26px -2px;
+}
+
+.card__text
+{
+    width: 285px;
+    height: 521px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.storage__button
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+
+.button
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+    border: 0;
+    margin-bottom: 55px;
+}
+
+.button:hover
+{
+    background-color: #098d71;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.form__title
+{
+    display: inline-flex;
+    align-items: center;
+    margin-left: -10px;
+
+}
+
+.title__line
+{
+    display: inline-flex;
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background-color: rgb(48, 48, 48);
+    margin: 0;
+}
+
+.title__text
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Open Sans";
+    margin: 0 26px;
+}
+
+.form__content
+{
+    width: 540px;
+    margin-top: 66px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content__text
+{
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 3px 0 3px 0;
+}
+
+.content__text_red::after
+{
+    content: " *";
+    color:  red;
+}
+
+.content__printing
+{
+    width: 496px;
+    margin-bottom: 23px;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    padding: 0 20px;
+}
+
+.content__country
+{
+    margin-bottom: 37px;
+    width: 540px;
+    height: 49px;
+    border-radius: 3px;
+    padding: 0 17px;
+    appearance: none;
+    background: url('../images/arrow.png') no-repeat 498px 17px;
+    border: 2px solid #a6a6a6;
+}
+
+.country__item
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.content__radio
+{
+    padding: 3px 0 32px 0.5px;
+}
+
+.radio__item
+{
+    margin: 0;
+}
+
+.radio
+{
+    margin-left: 3px;
+    margin-right: 36px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.content__write
+{
+    width: 532px;
+    height: 142px;
+    border-radius: 3px;
+    resize: none;
+    border: 2px solid #c9c9c9;
+
+}
+
+.content__button
+{
+    margin: 50px 0;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+    border: 0;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+}
+
+.content__button:hover
+{
+        background-color: #098d71;
+}
+
+.content__printing:hover,
+.content__country:hover,
+.radio__item:hover,
+.content__write:hover
+{
+    border: 2px solid #15a98c;
+}
+
+.content__printing:focus,
+.content__country:focus,
+.radio__item:focus,
+.content__write:focus
+{
+    outline: none;
+    border: 2px solid  rgb(48, 48, 48);
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #f9f9f9;
+}
+
+.postscripte__text
+{
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 20px 0 0;
+}
