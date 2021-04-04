@@ -6,6 +6,7 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     background-position: -8px 50px;
+    background-size: contain;
 
 }
 
@@ -79,8 +80,7 @@
     width: 570px;
     font-size: 20px;
     float: right;
-    margin-right: 40px;
-    margin-top: 16px;
+    margin: 16px 40px 0 0;
 }
 
 .phrase
@@ -107,8 +107,7 @@
 
 .phrase__author
 {
-    margin-top: 3px;
-    margin-left: 5px;
+    margin: 3px 0 16px 7px;
 
 }
 
@@ -121,13 +120,13 @@
 .article
 {
     margin-top: 50px;
-    height: 770px;
+    height: 640px;
 
 }
 
 .article__title
 {
-    margin: 32.16px 0 21.16px 4px;
+    margin: 33px 0 21.16px 4px;
 }
 
 .article__title-text
@@ -138,14 +137,13 @@
 
 .article__image-stick
 {
-    margin-top: 0px;
 }
 
 .article__info
 {
     width: 561px;
     height: 198px;
-    margin-top: 39px;
+    margin: 39px 0 19px 0;
 }
 
 .article__text
@@ -166,19 +164,10 @@
 }
 .article__hobby
 {
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
 }
 
 .article__link
-{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 562px;
-    height: 263px;
-}
-
-.link
 {
     text-decoration: none;
     color: #15a98b;
@@ -200,8 +189,7 @@
     font-size: 20px;
     width: 300px;
     float: left;
-    margin-top: 110px;
-    margin-left: 40px;
+    margin: 110px 0 0 40px;
 }
 
 .sidebar__image
@@ -211,8 +199,7 @@
 
 .sidebar__lists
 {
-    height: 770px;
-    margin-top: 0px;
+    height: 490px;
 }
 
 .list-header
@@ -267,18 +254,26 @@
     list-style-position: inside;
 }
 
+.clear
+{
+    clear: both;
+}
+
 .movies
 {
-    margin-top: 1160px;
-
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
 .movies__storage
 {
+   /* display: flex;
+    flex-direction: center
+  /*  align-items: center;*/*/
     margin-left: 270px;
     width: 1200px;
 }
@@ -326,8 +321,7 @@
 {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-left: 250px;
+    margin: 0 0 50px -19px;
 }
 
 .button
@@ -349,13 +343,17 @@
     background-color: #098d71;
 }
 
+.button:focus,
+.content__button:focus
+{
+   outline: none;
+}
+
 .form
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0px;
-    margin-left: 0px;
 }
 
 .form__title
@@ -384,13 +382,13 @@
     font-weight: 300;
     font-family: "Open Sans";
     margin: 0 26px;
+    text-transform: uppercase;
 }
 
 .form__content
 {
     width: 540px;
     margin-top: 66px;
-    margin-left: 0px;
     display: flex;
     flex-direction: column;
 
