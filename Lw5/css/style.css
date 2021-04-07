@@ -6,8 +6,6 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     background-position: -8px 50px;
-    background-size: contain;
-
 }
 
 .menu
@@ -71,7 +69,7 @@
 .container
 {
     width: 1040px;
-    margin: 100px auto;
+    margin: 100px auto 110px;
     font-size: 0px;
 }
 
@@ -261,21 +259,18 @@
 
 .movies
 {
-    margin-top: 65px;
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    background-color: #f9f9f9;
 }
 
 .movies__storage
 {
-   /* display: flex;
-    flex-direction: center
-  /*  align-items: center;*/*/
-    margin-left: 270px;
     width: 1200px;
+    margin-top: 10px;
 }
 
 .storage__cinema
@@ -321,7 +316,6 @@
 {
     display: flex;
     justify-content: center;
-    margin: 0 0 50px -19px;
 }
 
 .button
@@ -335,7 +329,7 @@
     border-radius: 5px;
     background-color: #15a98c;
     border: 0;
-    margin-bottom: 55px;
+    margin: 0 0 60px -19px;
 }
 
 .button:hover
@@ -354,6 +348,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 45px;
 }
 
 .form__title
@@ -470,7 +465,6 @@
     border-radius: 3px;
     resize: none;
     border: 2px solid #c9c9c9;
-
 }
 
 .content__button
