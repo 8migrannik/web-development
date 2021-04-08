@@ -1,11 +1,9 @@
 .background
 {
-    background-image: url('../images/background.png');
-    background-repeat: no-repeat;
+    background: url('../images/background.png') no-repeat -8px 50px;
     height: 450px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-position: -8px 50px;
 }
 
 .menu
@@ -47,30 +45,23 @@
 
 .navbar__image-littleman
 {
-    background-image: url('../images/littleman.png');
-    background-repeat: no-repeat;
-    background-position: 20px 17px;
+    background: url('../images/littleman.png') no-repeat 20px 17px;
 }
 
 .navbar__image-heart
 {
-    background-image: url('../images/heart.png') ;
-    background-repeat: no-repeat;
-    background-position: 20px 18px;
+    background: url('../images/heart.png') no-repeat 20px 18px;
 }
 
 .navbar__image-camera
 {
-    background-image: url('../images/camera.png') ;
-    background-repeat: no-repeat;
-    background-position: 19px 17px;
+    background: url('../images/camera.png') no-repeat 19px 17px;
 }
 
 .container
 {
     width: 1040px;
     margin: 100px auto 110px;
-    font-size: 0px;
 }
 
 .main
@@ -124,7 +115,7 @@
 
 .article__title
 {
-    margin: 33px 0 21.16px 4px;
+    margin: 33px 0 21px 4px;
 }
 
 .article__title-text
@@ -152,7 +143,7 @@
 
 .article__title-hobby
 {
-    margin: 37px 0 17.88px -2px;
+    margin: 37px 0 18px -2px;
 }
 
 .article__title-hobby-text
@@ -277,7 +268,7 @@
 {
     color: #333333;
     font: 400 36px/1.1 "Open Sans", sans-serif;
-    margin: 25.88px 0 34.88px 0;
+    margin: 26px 0 35px 0;
 }
 
 .storage__pages
@@ -299,7 +290,7 @@
     color: #333333;
     font-weight: 700;
     font-family: "Open Sans";
-    margin: 19.26px 2px 17.26px -2px;
+    margin: 19px 2px 17px -2px;
 }
 
 .card__text
@@ -364,7 +355,6 @@
     display: inline-flex;
     width: 200px;
     height: 1px;
-    border: 0;
     background-color: rgb(48, 48, 48);
     margin: 0;
 }
@@ -438,7 +428,7 @@
 
 .content__radio
 {
-    padding: 3px 0 32px 0.5px;
+    padding: 3px 0 32px 1px;
 }
 
 .radio__item

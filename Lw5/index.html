@@ -142,28 +142,28 @@
   </div>
   <div class="form">
     <div class="form__title">
-      <hr class="title__line">
+      <div class="title__line"></div>
       <h2 class="title__text">Напиши мне</h2>
-      <hr class="title__line">
+      <div class="title__line"></div>
     </div>
     <form class="form__content">
-      <label class="content__text content__text_red" for="">Ваше имя</label>
-      <input class="content__printing" type="text">
-      <label class="content__text content__text_red" for="">Ваш email</label>
-      <input class="content__printing" type="text" >
-      <label class="content__text" for="">Откуда вы?</label>
-      <select class="content__country country__item" name="" id="">
+      <label class="content__text content__text_red" for="name">Ваше имя</label>
+      <input class="content__printing" type="text" name="name" id="name">
+      <label class="content__text content__text_red" for="email">Ваш email</label>
+      <input class="content__printing" type="text" name="email" id="email">
+      <label class="content__text" for="from">Откуда вы?</label>
+      <select class="content__country country__item" name="country" id="from">
         <option class="country__item">Россия</option>
         <option  class="country__item">Москва</option>
       </select>
-      <label class="content__text" for="">Ваш пол</label>
+      <label class="content__text">Ваш пол</label>
       <div class="content__radio">
         <input class="radio__item" type="radio" name="gender" id="gender-man">
         <label class="radio" for="gender-man">Мужской</label>
         <input class="radio__item" type="radio" name="gender" id="gender-woman">
         <label class="radio" for="gender-woman"> Женский</label>
       </div>
-       <label class="content__text content__text_red" for="">Ваше сообщение</label>
+       <label class="content__text content__text_red">Ваше сообщение</label>
        <textarea class="content__write"></textarea>
        <button class="content__button">Отправить</button>
     </form>
