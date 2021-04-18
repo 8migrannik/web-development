@@ -1,10 +1,8 @@
-/*.background
+.background
 {
-    background: url('../images/background.png') no-repeat -8px 50px;
-    height: 450px;
-    margin: 0 0 0 0;
     padding: 0 0 0 0;
-}*/
+    margin: 8px 0;
+}
 
 .menu
 {
@@ -29,10 +27,8 @@
     align-items: center;
     padding: 2px 22px 0 45px;
     text-decoration: none;
-    font-size: 19px;
-    line-height: 32px;
     color: #333333;
-    font-family: "Georgia";
+    font: 19px/1.7 Georgia;
 }
 
 .navbar__image-littleman
@@ -62,41 +58,39 @@
     grid-template-columns: 100%;
 }
 
-.photo
+.grid-container__photo
 {
     grid-row: 1;
     display: flex;
     justify-content: center;
 }
 
-
 .author
 {
     grid-row: 2;
 }
 
-.image-stick
+.grid-container__image-stick
 {
     grid-row: 3;
 }
 
-.phrase
+.grid-container__phrase
 {
     grid-row: 4;
-
 }
 
-.contenter
+.grid-container__contenter
 {
     grid-row: 5;
 }
 
-.sidebar__list
+.grid-container__list
 {
     grid-row: 6;
 }
 
-.linker
+.grid-container__linker
 {
     grid-row: 7;
 }
@@ -115,7 +109,6 @@
 .phrase__author
 {
     margin: 3px 0 16px 7px;
-
 }
 
 .phrase__author-text
@@ -191,7 +184,7 @@
 .photo__image
 {
     border-radius: 5px;
-    margin: 50px 0;
+    margin: 50px 15%;
 }
 
 
@@ -219,11 +212,8 @@
 
 .list__item
 {
-
-    font-size: 19px;
-    line-height: 36px;
+    font: 19px/1.9 Georgia;
     color: #555555;
-    font-family: "Georgia";
 }
 
  .item-ul
@@ -268,7 +258,7 @@
 {
     color: #333333;
     font: 400 36px/1.1 "Open Sans", sans-serif;
-    margin: 26px 0 35px 0;
+    margin: 26px 3% 35px 3%
 }
 
 .storage__pages
@@ -284,27 +274,22 @@
 
 .card__move
 {
-    width: 100%;
+    width: 95%;
+    margin: 0px 2% 0 2%;
 }
 
 .card__title
 {
-    font-size: 22px;
-    line-height: 32px;
     color: #333333;
-    font-weight: 700;
-    font-family: "Open Sans";
-    margin: 19px 2px 17px -2px;
+    margin: 19px 3% 17px 3%;
+    font: 700 22px/1.5 "Open Sans";
 }
 
 .card__text
 {
-
-    font-size: 16px;
-    line-height: 28px;
     color: #555555;
-    font-family: "Georgia";
-    margin-bottom: 50px;
+    margin: 16px 3% 50px 3%;
+    font: 16px/1.75 Georgia;
 }
 
 .storage__button
@@ -315,16 +300,14 @@
 
 .button
 {
-    font-size: 19px;
-    line-height: 32px;
     color: #f5f5f5;
-    font-family: "Georgia";
     width: 220px;
     height: 50px;
     border-radius: 5px;
     background-color: #15a98c;
     border: 0;
     margin: 0 0 60px -19px;
+    font: 19px/1.7 Georgia;
 }
 
 .button:hover
@@ -343,8 +326,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 45px;
-    width: 100%;
+    margin: 45px 5% 2% 5%;
+    width: 90%;
 }
 
 .form__title
@@ -358,7 +341,6 @@
 .title__line
 {
     display: inline-flex;
-
     height: 1px;
     background-color: rgb(48, 48, 48);
     margin: 0;
@@ -366,13 +348,10 @@
 
 .title__text
 {
-    font-size: 36px;
-    line-height: 42px;
     color: #333333;
-    font-weight: 300;
-    font-family: "Open Sans";
     margin: 0 26px;
     text-transform: uppercase;
+    font: 300 36px/1.2 "Open Sans";
 }
 
 .form__content
@@ -386,12 +365,9 @@
 
 .content__text
 {
-    font-size: 20px;
-    line-height: 32px;
     color: #333333;
-    font-weight: 400;
-    font-family: "Open Sans";
     padding: 3px 0 3px 0;
+    font: 400 20px/1.6 "Open Sans";
 }
 
 .content__text_red::after
@@ -412,7 +388,6 @@
 .content__country
 {
     margin-bottom: 37px;
-
     height: 49px;
     border-radius: 3px;
     padding: 0 17px;
@@ -423,11 +398,8 @@
 
 .country__item
 {
-    font-size: 18px;
-    line-height: 32px;
     color: #555555;
-    font-weight: 400;
-    font-family: "Open Sans";
+    font: 400 18px/1.8 "Open Sans";
 }
 
 .content__radio
@@ -445,11 +417,9 @@
     margin-left: 3px;
     margin-right: 36px;
     padding-bottom: 5px;
-    font-size: 18px;
-    line-height: 32px;
     color: #333333;
-    font-weight: 400;
-    font-family: "Open Sans";
+    font: 400 18px/1.8 "Open Sans";
+
 }
 
 .content__write
@@ -469,15 +439,13 @@
     border-radius: 5px;
     background-color: #15a98c;
     border: 0;
-    font-size: 19px;
-    line-height: 32px;
     color: #f5f5f5;
-    font-family: "Georgia";
+    font: 18px/1.8 "Open Sans";
 }
 
 .content__button:hover
 {
-        background-color: #098d71;
+    background-color: #098d71;
 }
 
 .content__printing:hover,
@@ -500,7 +468,6 @@
 .footer
 {
     display: flex;
-    flex-direction: center;
     align-items: center;
     justify-content: center;
     height: 70px;
@@ -509,11 +476,10 @@
 
 .postscripte__text
 {
-    font-size: 16px;
-    line-height: 32px;
     color: #555555;
-    font-family: "Georgia";
-    margin: 0 20px 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    font: 16px/2.0 Georgia
 }
 
 @media screen and (min-width: 768px)
@@ -526,7 +492,7 @@
         grid-column-gap: 40px;
     }
 
-    .photo
+    .grid-container__photo
     {
         grid-row: 1;
         grid-column: 1;
@@ -539,27 +505,27 @@
         grid-column: 2;
     }
 
-    .image-stick
+    .grid-container__image-stick
     {
         grid-row: 2;
         grid-column: 2;
         align-self: end;
     }
 
-    .phrase
+    .grid-container__phrase
     {
         grid-row: 1;
         grid-column: 2;
     }
 
-    .contenter
+    .grid-container__contenter
     {
         grid-row: 3;
         grid-column: 2;
         width: 96%;
     }
 
-    .sidebar__list
+    .grid-container__list
     {
         grid-row: 2/4;
         grid-column: 1;
@@ -568,7 +534,7 @@
         align-items: center;
     }
 
-    .linker
+    .grid-container__linker
     {
         grid-row: 4;
         grid-column: 2;
@@ -636,13 +602,13 @@
         margin-top: 15px;
     }
 
-    .photo
+    .grid-container__photo
     {
         grid-row: 1/3;
         grid-column: 1;
     }
 
-    .sidebar__list
+    .grid-container__list
     {
         grid-row: 3;
         grid-column: 1;
@@ -697,7 +663,7 @@
         margin: 1px 0 0px 35px;
     }
 
-    .image-stick
+    .grid-container__image-stick
     {
         margin: 0px 0 33px 30px;
     }
@@ -717,7 +683,7 @@
         margin: 15px 0 0 30px;
     }
 
-    .linker
+    .grid-container__linker
     {
        margin: 0px 0 0 30px;
     }
